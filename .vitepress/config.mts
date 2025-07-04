@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "ShanFishのBlog",
   description: "分享技术和科技新闻",
-  srcDir: "./docs/"
+  srcDir: "./docs/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
