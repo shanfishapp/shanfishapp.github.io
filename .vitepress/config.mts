@@ -1,8 +1,13 @@
 import { defineConfig } from 'vitepress'
+// .vitepress/config.mts
+import { defineTeekConfig } from "vitepress-theme-teek/config";
 
+// Teek 主题配置
+const teekConfig = defineTeekConfig({});
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "ShanFishのBlog",
+  extends: teekConfig,
   description: "分享技术和科技新闻",
   srcDir: "./docs/",
   themeConfig: {
